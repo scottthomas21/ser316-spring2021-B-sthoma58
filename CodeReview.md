@@ -22,7 +22,7 @@
 |         |**File and Line Number**         |                                                        |   **Category**    |  **Severity**            |
 |   1     | Mascotmon.java; 76              | The use of a switch statement is prohibited per CS.    |    CS; 3          |       LOW                |
 |   2     | BattleScenario.java; 1          |BattleScenario.java lacks a file banner comment.        |    CG; 1          |       LOW                |
-|   3     | BattleScenario.java; 135        |The implementation of calculateDamage() is incorrect.   |      FD, NA       |                          |
+|   3     | BattleScenario.java; 135        |The implementation of calculateDamage() is incorrect.   |      FD           | **BR**                   |
 |   4     |       type.java; 1              | The class 'type.java' does not use "CamelCase".        |       CG; 4.b     |                          |
 |   5     | Mascotmon.java; 3               |The public class Mascotmon and lacks its banner comment.|    CG; 2          |       LOW                |
 |   6     | Environment.java; 45            |  The enum 'Weather' is not fully capitalized.          |      CG; 4.a      |       MJ                 |
