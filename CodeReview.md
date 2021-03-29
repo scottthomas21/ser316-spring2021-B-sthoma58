@@ -1,16 +1,11 @@
-<p align="center">
 <h2>Code Review Defect List </h2>
-</p>
 
 
-<p align="left">
+
 **Reviewer**: Scott Thomas
-</p>
 
 
-<p align="left"> 
 **GH Repo**: ser316-spring2021-B-sthoma58
-</p>
 
 
 
@@ -18,11 +13,7 @@
 
 
 
-<p align="center">
- <details>
-<summary>"Click to expand"</summary>
-this is hidden
-</details>
+
  
  
  
@@ -39,6 +30,8 @@ this is hidden
 |   7     |                        |                                          |                   |                          |
 
 
+<details>
+<summary>"EXPANDABLE CATEGORY CHART"</summary>
  
 **Category**
 |**Type** |      **Meaning**                 | **Additional Info**                       |
@@ -48,10 +41,15 @@ this is hidden
 |  FD     | Functional defect                | Code will not produce the expected result |
 |  MD     |  Miscellaneous defect            | For all other defects                     |
 
-
+</details>
+<details>
+<summary>"EXPANDABLE SEVERITY CHART"</summary>
+ 
 **Severity**
 |**Type** |      **Meaning**       | **Additional Info**                       |
 |:-------:|:----------------------:|:-----------------------------------------:|
 |  BR     | Blocker                |      Must be fixed asap                   |
 |  MJ     | Major                  |   Of high importance but not a Blocker    |
 |  LOW    | Low                    |      NA                                   |
+</details>
+
