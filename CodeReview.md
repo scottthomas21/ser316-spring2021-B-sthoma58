@@ -1,20 +1,13 @@
 <h2>Code Review Defect List </h2>
 
-
-
+<details>
+<summary> General Info </summary>
+ 
 **Reviewer**: Scott Thomas
-
 
 **GH Repo**: ser316-spring2021-B-sthoma58
 
-
-
-
-
-
-
-
- 
+</details>
  
  
 
