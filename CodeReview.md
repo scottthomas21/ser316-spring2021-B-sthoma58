@@ -7,7 +7,7 @@
 
 |**ID #** |      **Location**      |        **Problem Description**           |    **Problem**    |    **Problem (cont)**    |
 |:-------:|:----------------------:|:----------------------------------------:|:-----------------:|:------------------------:|
-|         |**File and Line Number**|                                          |   Category        |  Severity                |
+|         |**File and Line Number**|                                          |   **Category**    |  **Severity**            |
 |   1     |                        |                                          |                   |                          |
 | 2 |---|---|---|---|
 | 3 |---|---|---|---|
