@@ -31,7 +31,7 @@
 
 
 <details>
-<summary>"EXPANDABLE CATEGORY CHART"</summary>
+<summary> CATEGORY CHART </summary>
  
 **Category**
 |**Type** |      **Meaning**                 | **Additional Info**                       |
@@ -43,7 +43,7 @@
 
 </details>
 <details>
-<summary>"EXPANDABLE SEVERITY CHART"</summary>
+<summary> SEVERITY CHART </summary>
  
 **Severity**
 |**Type** |      **Meaning**       | **Additional Info**                       |
