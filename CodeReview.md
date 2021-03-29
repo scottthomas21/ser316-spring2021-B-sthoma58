@@ -1,9 +1,31 @@
-# Code Review Defect List
+<p align="center">
+<h2>Code Review Defect List </h2>
+</p>
 
 
+<p align="left">
 **Reviewer**: Scott Thomas
+</p>
 
+
+<p align="left"> 
 **GH Repo**: ser316-spring2021-B-sthoma58
+</p>
+
+
+
+
+
+
+
+<p align="center">
+ <details>
+<summary>"Click to expand"</summary>
+this is hidden
+</details>
+ 
+ 
+ 
 
 |**ID #** |      **Location**      |        **Problem Description**           |    **Problem**    |    **Problem (cont)**    |
 |:-------:|:----------------------:|:----------------------------------------:|:-----------------:|:------------------------:|
