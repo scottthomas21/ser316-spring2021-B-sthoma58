@@ -5,8 +5,8 @@
 
 **GH Repo**: ser316-spring2021-B-sthoma58
 
-|**ID #** |      **Location**     |        **Problem Description**         ||    **Problem**    ---|
-|---|File and Line Number |---|---|---|---|
+|ID # |      Location     |        Problem Description           |---|    Problem    |---|
+|---|---|---|---|---|---|
 | 1 |---|---|---|---|---|
 | 2 |---|---|---|---|---|
 | 3 |---|---|---|---|---|
