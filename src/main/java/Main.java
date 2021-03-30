@@ -14,6 +14,7 @@ public class Main {
         fight1.initiateBattle();
         System.out.println("This is the end of the training simulation");
 
+        /**
         //Create Second battle scenario with two mons
         BattleScenario fight2 = new BattleScenario(attacker2, defender2); 
 //        Set the weather
@@ -21,5 +22,7 @@ public class Main {
 //        Initiate battle
         fight2.initiateBattle();
         System.out.println("This is the end of the training simulation");
+        
+        */
     }
 }
