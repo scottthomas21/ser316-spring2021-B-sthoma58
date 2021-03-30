@@ -33,7 +33,7 @@ public class Mascotmon {
     }
 
     private void getType() {
-        Type t = new Type(name);
+        type t = new type(name);
         this.type = t.type;
     }
 
