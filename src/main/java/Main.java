@@ -6,20 +6,17 @@ public class Main {
         Mascotmon attacker2 = new Mascotmon(Mascotmon.Name.BULLY);
         Mascotmon defender2 = new Mascotmon(Mascotmon.Name.RALPHIE);
         
-        //Create First battle scenario with two mons
-        BattleScenario fight1 = new BattleScenario(attacker1, defender1); 
-        //Set the weather
-        fight1.setEnvironment(Environment.Weather.sunny);
-        //Initiate battle
-        fight1.initiateBattle();
+        
+        BattleScenario fight1 = new BattleScenario(attacker1, defender1); //Create First battle scenario with two mons
+        fight1.setEnvironment(Environment.WEATHER.sunny);  //Set the weather
+        fight1.initiateBattle(); //Initiate battle
+       
         System.out.println("This is the end of the training simulation");
-
-        //Create Second battle scenario with two mons
+/**
         BattleScenario fight2 = new BattleScenario(attacker2, defender2); 
-//        Set the weather
         fight2.setEnvironment(Environment.Weather.rainy);
-//        Initiate battle
         fight2.initiateBattle();
         System.out.println("This is the end of the training simulation");
+        */
     }
 }

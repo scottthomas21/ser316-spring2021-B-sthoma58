@@ -68,7 +68,7 @@ public class GivenBlackBox {
         BattleScenario fight1 = createBattleScenario(attacker1, defender1); 
         System.out.println("    BvsRSunnyGround");
         
-        fight1.setEnvironment(Environment.Weather.sunny);
+        fight1.setEnvironment(Environment.WEATHER.sunny);
         Attack attack = new Attack(80, "Ground");
         
         //Calculation: 80 * 1 * 1 - 65 * 1 *1
@@ -92,7 +92,7 @@ public class GivenBlackBox {
         BattleScenario fight1 = createBattleScenario(attacker1, defender1); 
         System.out.println("    RvsBSunnyGround");
         
-        fight1.setEnvironment(Environment.Weather.sunny);
+        fight1.setEnvironment(Environment.WEATHER.sunny);
         Attack attack = new Attack(80, "Ground");
         
         //Calculation: 80 * 1.2 * 1 * 1 - 40 * 1 *1

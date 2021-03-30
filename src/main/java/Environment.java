@@ -1,17 +1,17 @@
 public class Environment {
 
-    Weather WEATHER;
+    WEATHER W;
     String buffedType;
     String DebuffedType;
     double buffModifier;
     double debuffModifier;
 
     public Environment(){
-        this(Weather.neutral);
+        this(WEATHER.neutral);
     }
 
-    public Environment(Weather weather) {
-        this.WEATHER = weather;
+    public Environment(WEATHER weather) {
+        this.W = weather;
         this.buffModifier = 1.25;
         this.debuffModifier = 0.75;
         switch (weather){
@@ -42,7 +42,7 @@ public class Environment {
         return DebuffedType;
     }
 
-    public enum Weather {
+    public enum WEATHER {
         sunny, rainy, drought, neutral
     }
 }

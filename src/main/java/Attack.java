@@ -1,4 +1,4 @@
-public class Attack {
+public class Attack {   
 
     public String type;
     public double damage;
@@ -7,6 +7,4 @@ public class Attack {
     	this.type = type;
     	this.damage = damage;
     }
-
-
 }

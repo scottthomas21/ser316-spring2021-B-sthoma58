@@ -18,7 +18,7 @@ public class BattleScenario {
      * receive a reduction of 25% to their attack and defense stat.
      * @param pWeather is the weather enum to use from Environment class
      */
-    public void setEnvironment(Environment.Weather pWeather) {
+    public void setEnvironment(Environment.WEATHER pWeather) {
         battleWeather = new Environment(pWeather);
     }
 
@@ -30,7 +30,7 @@ public class BattleScenario {
         System.out.println("Woooo: " + mon1Stats.health);
 
         System.out.println("\nWelcome everyone to the Mascotmon training arena!");
-        System.out.println("It is a " + battleWeather.WEATHER.toString().toLowerCase()
+        System.out.println("It is a " + battleWeather.W.toString().toLowerCase()
                 + " day here at Frank Kush Field");
         System.out.println("Today, on the attacking team we have " + mon1.name + " " +
                 mon1.description);
