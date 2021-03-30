@@ -133,7 +133,58 @@ public class BattleScenario {
       * @return total damage output
       */
     public double calculateDamage(Attack pAttack, Mascotmon pAttacker, Mascotmon pDefender) {
-        return Math.round(pAttack.damage * 0.2);
+    	aMon = pAttacker;
+    	dMon = pDefender;
+    	double damageDealt = pAttack.damage;
+    	
+    	if (aMon.type.equals("Fire")) {									//FIRE ATTACKING
+    		if (dMon.type.equals("Water")) {
+    			damageDealt = damageDealt * 0.75;
+    		}    		
+    		if (dMon.type.equals("Ground")) {
+    			damageDealt = damageDealt * 1.25;
+    		}
+    		if (battleWeather.WEATHER.toString().equals("rainy")) {
+    			damageDealt = damageDealt * 0.75;
+    		}
+    		if (battleWeather.WEATHER.toString().equals("sunny")) {
+    			damageDealt = damageDealt * 1.25;
+    		}
+    	}
+    	if (aMon.type.equals("Water")) {								//WATER ATTACKING
+    		if (dMon.type.equals("Fire")) {
+    			damageDealt = damageDealt * 1.25;
+    		}    		
+    		if (dMon.type.equals("Ground")) {
+    			damageDealt = damageDealt * 0.75;
+    		}
+    		if (battleWeather.WEATHER.toString().equals("rainy")) {
+    			damageDealt = damageDealt * 1.25;
+    		}
+    		if (battleWeather.WEATHER.toString().equals("sunny")) {
+    			damageDealt = damageDealt * 0.75;
+    		}
+    	}
+    	if (aMon.type.equals("Ground")) {									//GROUND ATTACKING
+    		if (dMon.type.equals("Fire")) {
+    			damageDealt = damageDealt * 0.75;
+    		}    		
+    		if (dMon.type.equals("Water")) {							
+    			damageDealt = damageDealt * 1.25;
+    		}
+    		if (battleWeather.WEATHER.toString().equals("drought")) {	
+    			damageDealt = damageDealt * 1.25;
+    		}
+    	}
+    	if (aMon.type.equals("Normal")) { 									//NORMAL ATTACKING
+    		if (battleWeather.WEATHER.toString().equals("drought")) {
+    			damageDealt = damageDealt * 0.25;
+    		}
+    	}
+        
+        damageDealt = Math.round(damageDealt*0.2);
+    	int dmg = (int)damageDealt;
+    `
+    	return dmg;
     }
-
 }
